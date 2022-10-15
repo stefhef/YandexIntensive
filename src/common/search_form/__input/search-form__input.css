@@ -1,0 +1,16 @@
+.search-from__input {
+    outline: 0;
+    /*margin-left: 10px;*/
+    border: #ffca26 2px solid;
+    /*border-top-left-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    border-radius: 10px;
+    padding-left: 10px;
+    height: inherit;
+}
+
+
+.search-from__input::placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}

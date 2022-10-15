@@ -1,0 +1,10 @@
+.foot__item {
+    text-decoration: none;
+    color: #999;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.foot__item:hover {
+    color: red;
+}

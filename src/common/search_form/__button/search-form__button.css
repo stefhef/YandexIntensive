@@ -1,0 +1,12 @@
+.search-from__button {
+    display: block;
+    background: #ffca26;
+    outline: 0;
+    border: 0;
+    margin-left: -5px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+
+    /*margin: auto;*/
+    height: inherit;
+}

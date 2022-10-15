@@ -1,0 +1,152 @@
+.back {
+    text-decoration: none;
+    color: blue;
+}
+
+.back:hover {
+    color: red;
+}
+.foot {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: 25px;
+    font-size: 85%;
+    color: #999;
+    width: 100%;
+    /*white-space: nowrap;*/
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    /*align-items: center;*/
+}
+.logo {
+    position: relative;
+    background: url('https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg') no-repeat;
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+/*50% 50%*/
+.main {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.search-from {
+
+    display: -webkit-inline-box;
+
+    display: -ms-inline-flexbox;
+
+    display: inline-flex;
+    min-height: 35px;
+}
+.visited {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+}
+.foot__item {
+    text-decoration: none;
+    color: #999;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.foot__item:hover {
+    color: red;
+}
+.search-from__button {
+    display: block;
+    background: #ffca26;
+    outline: 0;
+    border: 0;
+    margin-left: -5px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+
+    /*margin: auto;*/
+    height: inherit;
+}
+.search-from__input {
+    outline: 0;
+    /*margin-left: 10px;*/
+    border: #ffca26 2px solid;
+    /*border-top-left-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    border-radius: 10px;
+    padding-left: 10px;
+    height: inherit;
+}
+
+
+.search-from__input::-webkit-input-placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}
+
+
+.search-from__input::-moz-placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}
+
+
+.search-from__input:-ms-input-placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}
+
+
+.search-from__input::-ms-input-placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}
+
+
+.search-from__input::placeholder {
+    color: #b6b6b6;
+    margin: auto;
+}
+.visited__item {
+    list-style-type: none;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+}
+
+.visited__link_blue {
+    text-decoration: none;
+    color: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.visited__logo_practicum {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg");
+    background-size: 16px;
+}
+.visited__logo_toloka {
+    background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico");
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background-size: 16px;
+}
+/*# sourceMappingURL=../sourcemaps/style.css.map */
