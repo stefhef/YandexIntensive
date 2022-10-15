@@ -1,4 +1,8 @@
 .main-layout {
     margin: auto;
     max-width: 750px;
+    /*transform: translateY(50%);*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 519px;
 }

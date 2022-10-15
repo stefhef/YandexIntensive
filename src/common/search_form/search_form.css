@@ -1,5 +1,9 @@
 .search-from {
     display: inline-flex;
     min-height: 35px;
-    min-width: 640px;
+    min-width: 642px;
+    margin-top: 7px;
+    background: #ffc93d;
+    border-radius: 10px;
+    border: #ffca26 2px solid;
 }

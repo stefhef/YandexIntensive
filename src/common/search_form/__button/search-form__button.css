@@ -1,12 +1,16 @@
-.search-from__button {
+.search-form__button {
     display: block;
     background: #ffca26;
     outline: 0;
     border: 0;
-    margin-left: -5px;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
     min-width: 70px;
     height: inherit;
     font-weight: 600;
+}
+
+
+.search-form__button:hover {
+    background: #ffc500
 }

@@ -1,9 +1,4 @@
 .logo {
-    position: relative;
-    background: url('https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg') no-repeat;
-    min-width: 100px;
-    min-height: 100px;
-    width: 100px;
-    background-size: cover;
+    margin-right: 20px;
+    max-height: 43px;
 }
-/*50% 50%*/
