@@ -1,5 +1,5 @@
 .visited__item {
     list-style-type: none;
-    /*display: flex;*/
-    /*flex-direction: row;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

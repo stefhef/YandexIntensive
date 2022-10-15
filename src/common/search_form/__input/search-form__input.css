@@ -2,6 +2,7 @@
     outline: 0;
     /*margin-left: 10px;*/
     border: #ffca26 2px solid;
+    min-width: 570px;
     /*border-top-left-radius: 10px;*/
     /*border-bottom-left-radius: 10px;*/
     border-radius: 10px;

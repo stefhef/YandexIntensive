@@ -1,0 +1,6 @@
+.visited__link_blue_kinopoisk {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastatic.net/s3/kinopoisk-frontend/common-static/img/projector-favicon/favicon-16.svg") no-repeat;
+}

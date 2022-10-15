@@ -1,11 +1,3 @@
-.back {
-    text-decoration: none;
-    color: blue;
-}
-
-.back:hover {
-    color: red;
-}
 .foot {
     position: absolute;
     display: -webkit-box;
@@ -23,6 +15,25 @@
         flex-basis: 100%;
     /*align-items: center;*/
 }
+.main-layout {
+    margin: auto;
+    max-width: 750px;
+}
+.back {
+    text-decoration: none;
+    color: blue;
+}
+
+.back:hover {
+    color: red;
+}
+.main {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
 .logo {
     position: relative;
     background: url('https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg') no-repeat;
@@ -32,29 +43,21 @@
     background-size: cover;
 }
 /*50% 50%*/
-.main {
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    
-}
 .search-from {
-
     display: -webkit-inline-box;
-
     display: -ms-inline-flexbox;
-
     display: inline-flex;
     min-height: 35px;
+    min-width: 640px;
 }
 .visited {
     /*display: flex;*/
     /*flex-direction: row;*/
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
-    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 560px;
 }
 .foot__item {
     text-decoration: none;
@@ -74,14 +77,15 @@
     margin-left: -5px;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
-
-    /*margin: auto;*/
+    min-width: 70px;
     height: inherit;
+    font-weight: 600;
 }
 .search-from__input {
     outline: 0;
     /*margin-left: 10px;*/
     border: #ffca26 2px solid;
+    min-width: 570px;
     /*border-top-left-radius: 10px;*/
     /*border-bottom-left-radius: 10px;*/
     border-radius: 10px;
@@ -120,33 +124,78 @@
 }
 .visited__item {
     list-style-type: none;
-    /*display: flex;*/
-    /*flex-direction: row;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
+.logo {
+    /*padding: 50px;*/
+    /*background: url('https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg') no-repeat;*/
+    /*background-size: 100px;*/
+    position: relative;
+    top: -3px;
+    width: 100px;
+    height: 43px;
+    margin-right: 18px;
+    vertical-align: top;
+    background: url(https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.visited__link_black {
+    text-decoration: none;
+    color: black;
+}
 .visited__link_blue {
     text-decoration: none;
     color: blue;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    padding-left: 25px;
 }
-.visited__logo_practicum {
+.visited__link_blue_edadil {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastatic.net/s3/edadeal-public-static/web/app/b7f8acb3142542/static/img/favicon-16x16.png") no-repeat;
+}
+.visited__link_blue_kinopoisk {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastatic.net/s3/kinopoisk-frontend/common-static/img/projector-favicon/favicon-16.svg") no-repeat;
+}
+.visited__link_blue_music {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://music.yandex.ru//favicon16.png") no-repeat;
+}
+.visited__link_blue_market {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastatic.net/market-export/_/i/favicon/ymnew/16.png") no-repeat;
+}
+.visited__link_blue_plus {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
+}
+.visited__link_blue_practicum {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
     width: 16px;
     height: 16px;
     margin-right: 3px;
-    background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg");
+    background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg") no-repeat;
     background-size: 16px;
 }
-.visited__logo_toloka {
-    background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico");
+.visited__link_blue_toloka {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico") no-repeat;
     width: 16px;
     height: 16px;
-    margin-right: 3px;
     background-size: 16px;
 }
 /*# sourceMappingURL=../sourcemaps/style.css.map */

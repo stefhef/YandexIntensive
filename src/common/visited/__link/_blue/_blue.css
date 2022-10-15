@@ -1,6 +1,5 @@
 .visited__link_blue {
     text-decoration: none;
     color: blue;
-    display: flex;
-    flex-direction: row;
+    padding-left: 25px;
 }

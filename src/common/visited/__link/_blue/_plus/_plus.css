@@ -1,0 +1,6 @@
+.visited__link_blue_plus {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
+}

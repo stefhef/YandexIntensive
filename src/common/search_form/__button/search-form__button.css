@@ -6,7 +6,7 @@
     margin-left: -5px;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
-
-    /*margin: auto;*/
+    min-width: 70px;
     height: inherit;
+    font-weight: 600;
 }

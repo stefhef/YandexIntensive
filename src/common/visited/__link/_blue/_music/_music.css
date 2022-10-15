@@ -1,0 +1,6 @@
+.visited__link_blue_music {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://music.yandex.ru//favicon16.png") no-repeat;
+}
