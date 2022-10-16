@@ -6,23 +6,48 @@
 .back:hover {
     color: red;
 }
+.foot {
+    /*position: absolute;*/
+    /*display: flex;*/
+    /*justify-content: row;*/
+    /*bottom: 25px;*/
+    margin: auto auto 0 auto;
+    font-size: 85%;
+    color: #999;
+    min-width:780px;
+    /*max-width: 780px;*/
+}
 .logo {
     margin-right: 20px;
     max-height: 43px;
+    max-width: 100px;
 }
 
-.foot {
-    position: absolute;
+.main-body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /*justify-content: row;*/
-    bottom: 25px;
-    margin: 0 auto;
-    font-size: 85%;
-    color: #999;
-    min-width:793px;
-    max-width: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /*justify-items: end;*/
+    height: 100%;
+    /*min-height: 100%;*/
+}
+
+.main-layout {
+    max-width: 750px;
+    display: -ms-grid;
+    display: grid;
+    margin: 20% auto 0 auto;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    min-width: 780px;
+    min-height: 70%;
+}
+.right_container {
+    max-height: 600px;
 }
 .search-from {
     display: -webkit-inline-box;
@@ -43,19 +68,7 @@
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     max-width: 560px;
-}
-.main-layout {
-    margin: auto;
-    max-width: 750px;
-    /*transform: translateY(50%);*/
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    min-height: 519px;
-}
-.logo_image {
-    content: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");
+    max-height: 350px;
 }
 .foot__item {
     text-decoration: none;
@@ -66,6 +79,25 @@
 
 .foot__item:hover {
     color: red;
+}
+.logo_image {
+    content: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");
+}
+.search-form__button {
+    display: block;
+    background: #ffca26;
+    outline: 0;
+    border: 0;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    min-width: 70px;
+    height: inherit;
+    font-weight: 600;
+}
+
+
+.search-form__button:hover {
+    background: #ffc500
 }
 .search-form__input {
     outline: 0;
@@ -122,22 +154,6 @@
 .search-form__input:focus:-ms-input-placeholder {
     color: transparent
 }
-.search-form__button {
-    display: block;
-    background: #ffca26;
-    outline: 0;
-    border: 0;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 12px;
-    min-width: 70px;
-    height: inherit;
-    font-weight: 600;
-}
-
-
-.search-form__button:hover {
-    background: #ffc500
-}
 .visited__item {
     list-style-type: none;
     margin-bottom: 10px;
@@ -170,17 +186,17 @@
     padding-left: 25px;
     background: url("https://yastatic.net/market-export/_/i/favicon/ymnew/16.png") no-repeat;
 }
-.visited__link_blue_plus {
-    text-decoration: none;
-    color: blue;
-    padding-left: 25px;
-    background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
-}
 .visited__link_blue_music {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
     background: url("https://music.yandex.ru//favicon16.png") no-repeat;
+}
+.visited__link_blue_plus {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
 }
 .visited__link_blue_practicum {
     text-decoration: none;
