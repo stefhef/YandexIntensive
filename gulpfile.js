@@ -4,9 +4,9 @@ const clean = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const map = require('gulp-sourcemaps');
 const connect = require('gulp-connect');
-const babel = require('gulp-babel');
-const {src, dest} = require('gulp');
-const uglify = require('gulp-uglify-es').default;
+// const babel = require('gulp-babel');
+// const {src, dest} = require('gulp');
+// const uglify = require('gulp-uglify-es').default;
 
 
 gulp.task('html', function () {
@@ -18,7 +18,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('min_css', function () {
-    return gulp.src('src/common/**/*.css')
+    return gulp.src('src/components/**/*.css')
         .pipe(map.init())
         .pipe(concat("style.min.css"))
         .pipe(clean({level: 2}))
@@ -31,7 +31,7 @@ gulp.task('min_css', function () {
 });
 
 gulp.task('css', function () {
-    return gulp.src('src/common/**/*.css')
+    return gulp.src('src/components/**/*.css')
         .pipe(map.init())
         .pipe(concat("style.css"))
         .pipe(prefixer({
@@ -73,7 +73,7 @@ gulp.task('server', function () {
 
 
 gulp.task('watch', function () {
-    gulp.watch('src/common/**/*.css', gulp.parallel('css', 'min_css'));
+    gulp.watch('src/components/**/*.css', gulp.parallel('css', 'min_css'));
     gulp.watch('src/pages/*.html', gulp.parallel('html'));
     // gulp.watch(['src/common/**/*.js', 'src/js/01_main.js'], gulp.parallel('js', 'min_js'))
 })

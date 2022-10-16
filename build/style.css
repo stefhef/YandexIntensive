@@ -1,3 +1,12 @@
+.foot {
+    margin: 0 auto;
+    font-size: 85%;
+    color: #999;
+    min-width:780px;
+}
+.error-text {
+    margin-top: 0;
+}
 .back {
     text-decoration: none;
     color: blue;
@@ -5,17 +14,6 @@
 
 .back:hover {
     color: red;
-}
-.foot {
-    /*position: absolute;*/
-    /*display: flex;*/
-    /*justify-content: row;*/
-    /*bottom: 25px;*/
-    margin: auto auto 0 auto;
-    font-size: 85%;
-    color: #999;
-    min-width:780px;
-    /*max-width: 780px;*/
 }
 .logo {
     margin-right: 20px;
@@ -31,16 +29,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /*justify-items: end;*/
     height: 100%;
-    /*min-height: 100%;*/
 }
 
 .main-layout {
     max-width: 750px;
     display: -ms-grid;
     display: grid;
-    margin: 20% auto 0 auto;
+    margin: auto auto 0 auto;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     min-width: 780px;
@@ -61,8 +57,6 @@
     border: #ffca26 2px solid;
 }
 .visited {
-    /*display: flex;*/
-    /*flex-direction: row;*/
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
@@ -79,6 +73,13 @@
 
 .foot__item:hover {
     color: red;
+}
+.error-text__bottom {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.error-text__top {
+    margin-bottom: 1%;
 }
 .logo_image {
     content: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");
@@ -198,16 +199,6 @@
     padding-left: 25px;
     background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
 }
-.visited__link_blue_practicum {
-    text-decoration: none;
-    color: blue;
-    padding-left: 25px;
-    width: 16px;
-    height: 16px;
-    margin-right: 3px;
-    background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg") no-repeat;
-    background-size: 16px;
-}
 .visited__link_blue_toloka {
     text-decoration: none;
     color: blue;
@@ -215,6 +206,15 @@
     background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico") no-repeat;
     width: 16px;
     height: 16px;
+    background-size: 16px;
+}
+.visited__link_blue_practicum {
+    text-decoration: none;
+    color: blue;
+    padding-left: 25px;
+    width: 16px;
+    height: 16px;
+    background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg") no-repeat;
     background-size: 16px;
 }
 /*# sourceMappingURL=../sourcemaps/style.css.map */

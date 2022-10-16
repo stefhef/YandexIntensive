@@ -1,7 +1,7 @@
 .main-layout {
     max-width: 750px;
     display: grid;
-    margin: 20% auto 0 auto;
+    margin: auto auto 0 auto;
     grid-template-columns: 1fr 1fr;
     min-width: 780px;
     min-height: 70%;
