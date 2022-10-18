@@ -1,6 +1,7 @@
 .visited {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 560px;
+    display: flex;
     max-height: 350px;
+    justify-content: space-between;
+    margin-right: 80px;
+    font-size: 0.9em
 }

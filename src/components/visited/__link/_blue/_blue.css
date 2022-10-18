@@ -1,5 +1,8 @@
 .visited__link_blue {
     text-decoration: none;
     color: blue;
-    padding-left: 25px;
+    font-size: 0.9em
+}
+.visited__link_blue:hover {
+    color: red;
 }

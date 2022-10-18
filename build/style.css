@@ -1,12 +1,3 @@
-.foot {
-    margin: 0 auto;
-    font-size: 85%;
-    color: #999;
-    min-width:780px;
-}
-.error-text {
-    margin-top: 0;
-}
 .back {
     text-decoration: none;
     color: blue;
@@ -21,6 +12,12 @@
     max-width: 100px;
 }
 
+.foot {
+    margin: 0 auto;
+    font-size: 85%;
+    color: #999;
+    min-width:780px;
+}
 .main-body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,8 +27,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.error-text {
+    margin-top: 0;
+}
 .main-layout {
     max-width: 750px;
     display: -ms-grid;
@@ -57,13 +58,19 @@
     border: #ffca26 2px solid;
 }
 .visited {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 560px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     max-height: 350px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 80px;
+    font-size: 0.9em
 }
+/*.logo_image {*/
+/*    content: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");*/
+/*}*/
 .foot__item {
     text-decoration: none;
     color: #999;
@@ -76,13 +83,10 @@
 }
 .error-text__bottom {
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .error-text__top {
     margin-bottom: 1%;
-}
-.logo_image {
-    content: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");
 }
 .search-form__button {
     display: block;
@@ -155,60 +159,47 @@
 .search-form__input:focus:-ms-input-placeholder {
     color: transparent
 }
+.visited__image {
+    padding-right: 15px;
+    width: 16px;
+    height: 16px;
+}
 .visited__item {
     list-style-type: none;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.visited__link_black {
-    text-decoration: none;
-    color: black;
+.visited__list {
+    padding: 0;
 }
-.visited__link_blue {
-    text-decoration: none;
-    color: blue;
-    padding-left: 25px;
-}
-.visited__link_blue_edadil {
+.visited__image_blue_edadil {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
     background: url("https://yastatic.net/s3/edadeal-public-static/web/app/b7f8acb3142542/static/img/favicon-16x16.png") no-repeat;
 }
-.visited__link_blue_kinopoisk {
+.visited__image_blue_kinopoisk {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
     background: url("https://yastatic.net/s3/kinopoisk-frontend/common-static/img/projector-favicon/favicon-16.svg") no-repeat;
 }
-.visited__link_blue_market {
-    text-decoration: none;
-    color: blue;
-    padding-left: 25px;
+.visited__image_blue_market {
     background: url("https://yastatic.net/market-export/_/i/favicon/ymnew/16.png") no-repeat;
 }
-.visited__link_blue_music {
+.visited__image_blue_music {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
     background: url("https://music.yandex.ru//favicon16.png") no-repeat;
 }
-.visited__link_blue_plus {
+.visited__image_blue_plus {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
     background: url("https://yastat.net/s3/plus/landing/2022/icons/favicon-16x16.png") no-repeat;
 }
-.visited__link_blue_toloka {
-    text-decoration: none;
-    color: blue;
-    padding-left: 25px;
-    background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico") no-repeat;
-    width: 16px;
-    height: 16px;
-    background-size: 16px;
-}
-.visited__link_blue_practicum {
+.visited__image_blue_practicum {
     text-decoration: none;
     color: blue;
     padding-left: 25px;
@@ -217,4 +208,26 @@
     background: url("https://yastatic.net/s3/home/services/all/svg/praktikum0.svg") no-repeat;
     background-size: 16px;
 }
+.visited__image_blue_toloka {
+    background: url("https://yastatic.net/s3/toloka/p/worker/favicon.47ddfe2f33d5e1fb670cae6cfc801e8f.ico") no-repeat;
+}
+.visited__link_black {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em
+}
+.visited__link_blue {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.9em
+}
+.visited__link_blue:hover {
+    color: red;
+}
+/*.visited__list_left {*/
+/*    align-self: start;*/
+/*}*/
+/*.visited__list_right {*/
+/*    align-self: end;*/
+/*}*/
 /*# sourceMappingURL=../sourcemaps/style.css.map */
