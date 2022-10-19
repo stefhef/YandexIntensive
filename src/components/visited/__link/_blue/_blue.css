@@ -1,8 +1,17 @@
 .visited__link_blue {
     text-decoration: none;
-    color: blue;
+    color: #0054b9;
     font-size: 0.9em
 }
+
+.visited__link_blue:visited {
+    color: #4b2f89;
+}
+
 .visited__link_blue:hover {
+    color: red;
+}
+
+.visited__link_blue:active {
     color: red;
 }

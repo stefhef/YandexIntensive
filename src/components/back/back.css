@@ -1,8 +1,16 @@
 .back {
     text-decoration: none;
-    color: blue;
+    color: #0054b9;
+}
+
+.back:visited {
+    color: #4b2f89;
 }
 
 .back:hover {
+    color: red;
+}
+
+.back {
     color: red;
 }
